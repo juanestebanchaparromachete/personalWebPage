@@ -123,7 +123,7 @@ i {
     position: absolute;
     bottom: 5vh;
     height: 7vh;
-    width: 900vw;
+    width: 100vw;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: indianred;
@@ -184,7 +184,12 @@ font-size: 3vw !important;
     display: block;
     text-align: left;
   }
+     
 
+}
+
+@media screen and (max-width: 600px){
+    .sendM.map{display: none;}
 }
 
 .im {
@@ -244,6 +249,11 @@ a i {
 .textWork {
     font-size: 2vw;
 }
+#map {
+    height: 70%;
+}
+
+
 
 
 
