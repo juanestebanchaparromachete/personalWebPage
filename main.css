@@ -193,7 +193,8 @@ font-size: 3vw !important;
 }
 
 .im {
-                
+    
+    object-fit: cover;
     height: 80vh !important; 
     width: 90vw !important;
     

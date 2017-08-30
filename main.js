@@ -35,7 +35,6 @@ window.onload = function () {
 
     $(document).ready(function () {
         $('#toParent').click(function () {
-            console.log("llega a back")
             e.preventDefault();
             $('html,body').animate({
                     scrollTop: $("#parent").offset().top
