@@ -3,11 +3,14 @@
 
 <head>
     <meta charset="utf-8">
+<!--     Luis Plazas: Se puede incluir un favicon a la página con la siguiente línea: -->
+    <link rel="shortcut icon" type="image" href="favicon.png"/>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="">
-
+    <!--     Luis Plazas: No dejar el valor del atributo href vacío, no se importa nada-->
+    
     <title>Juan Esteban Chaparro Web page</title>
 
     <!-- Bootstrap core CSS -->
@@ -15,11 +18,12 @@
     <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script type="text/javascript" src="main.js"></script>
+    
+<!--     Luis Plazas: Es mejor importar todos los archivos con js al final del cuerpo, justo antes de </body> para que la página cargue más rápido -->
 
 </head>
 
-
+<!-- Luis Plazas: El ID show fue utilizado en más de un elemento -->
 <body id="show">
 
     <div class="main">
@@ -45,6 +49,7 @@
     </div>
     <div class="second" id="option2">
         <div class="text-right" style="height: 10px;">
+            <!--Luis Plazas: El ID 'toParent' fue usado en más de un elemento. -->
             <div id="toParent">
                 <i class="fa fa-angle-double-up " style="font-size:48px;color:indianred"></i>
             </div>
@@ -156,7 +161,8 @@ Development of ideas, innovation in new markets, research and implementation of 
             </div>
         </div>
         <div class="row text-center">
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+<!--             Luis Plazas: Si el menor tamaño es de 12, todos los demás también ocuparán 12 columnas en la grilla -->
+            <div class="col-sm-12">
                 <a href="">
                     <i class="fa fa-facebook-official" style="font-size:5vw;"></i></a>
                 <a href="">
@@ -167,16 +173,12 @@ Development of ideas, innovation in new markets, research and implementation of 
 
         </div>
 
-
-
     </div>
 
-
-
-
     <!-- /.container 1-->
-
-
+    
+    
+    <script type="text/javascript" src="main.js"></script>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -218,12 +220,6 @@ Development of ideas, innovation in new markets, research and implementation of 
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBR2HsJq1km81ZhD7df-S5Mc5sRZVwDbJA&callback=initMap">
     </script>
-
-
-
-
-
-
 
 </body>
 
